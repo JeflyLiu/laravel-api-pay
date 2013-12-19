@@ -9,7 +9,7 @@
 - [分页](#pagination)
 - [速度限制](#rate-limiting)
 - [跨域资源共享](#cross-origin-resource-sharing)
-- [JSON-P 回调](#son-p-callbacks)
+- [JSON-P 回调](#json-p-callbacks)
 - [接口定义](#interface-definition)
 
 <a name="schema" ></a>
@@ -177,7 +177,7 @@ rel 的可能值有：
     Access-Control-Max-Age: 86400  
     Access-Control-Allow-Credentials: true  
 
-<a name="son-p-callbacks"></a>
+<a name="json-p-callbacks"></a>
 ##  JSON-P 回调
 
 你可以发送参数?callback到任何GET回调函数以获得 JSON 函数的结果包裹。浏览器通过跨域方式利用网页嵌入 AdMaster 内容就是一种典型的应用。 响应包括定期 API 相同的数据输出，加上相关的 HTTP 头信息。
