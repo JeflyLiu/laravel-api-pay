@@ -49,12 +49,31 @@ since   |string   |The integer ID of the last User that you’ve seen.
 
 ## 获取认证账户
 
+    GET /account
+
+响应
+
+    Status: 200 OK
+    X-RateLimit-Limit: 5000
+    X-RateLimit-Remaining: 4999
+**
+
+
 ## 获取指定账户
 
+    GET /account/:id
+
 ## 获取账户交易记录
+    
+    GET /account/:id/records
 
 ## 添加账户
 
+    POST /account
+
 ## 修改指定账户 
 
+    PATCH /account/:id
+
 ## 删除指定账户
+    DELETE /account/:id
