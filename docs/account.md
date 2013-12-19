@@ -24,7 +24,7 @@ since   |string   |The integer ID of the last User that you’ve seen.
     Status: 200 OK
     X-RateLimit-Limit: 5000
     X-RateLimit-Remaining: 4999
-
+***
     [
       {
         "login": "octocat",
